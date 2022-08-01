@@ -7,7 +7,7 @@ public class Client {
 		m=new movie(1, "Shamshera","Movie about fight for independence against the British rule","Action/Adventure","Ranbir kapoor,Vanii Kapoor");
 		MovieDAO mdao=new MovieDAO();
 		System.out.println(mdao.insert(m) + " Record Inserted");
-	//	m.setName("3 Idiots back");
+	//	m.setName("ek villan back");
 	//	System.out.println(mdao.update(m) + " Record Updated");
 	//	System.out.println(mdao.delete(m) + " Record deleted");
 		List<movie> movies=mdao.read();
